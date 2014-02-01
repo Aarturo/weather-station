@@ -1,4 +1,4 @@
-weather-satation
+weather-station
 ================
 
-First aproach with node and sensors
+First approach with node and sensors
