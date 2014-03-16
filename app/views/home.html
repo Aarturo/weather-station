@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <h2>Weather Station</h2>
+	<h4>Lista de puertos:</h4>
+	<ul>
+		{% for port in ports %}
+			<li>{{port}}</li>
+		{% endfor %}
+	</ul> 
+{% endblock content %}
